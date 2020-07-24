@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: eccho "Hello World!"
+        run: echo "Hello World!"
       - name: echo another sentense
         run: echo "something else"
