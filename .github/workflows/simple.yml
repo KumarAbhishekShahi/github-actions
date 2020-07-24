@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Hello World!"
+        run: eccho "Hello World!"
       - name: echo multiline
         run: echo "It is a \n multiline"
