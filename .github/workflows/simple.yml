@@ -1,7 +1,14 @@
 name: Shell Commands 
 on: [push]
 jobs:
-  run-shell-command:
+  First-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string 
+        run: echo "Hello World!"
+      - name: echo another sentense
+        run: echo "something else"
+  Second-Job:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string 
